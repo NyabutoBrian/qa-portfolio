@@ -1,1 +1,37 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Button Unresponsive</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<h1>Bug Report: Login Button Unresponsive</h1>
+
+<p><strong>Bug ID:</strong> BR-001</p>
+<p><strong>Severity:</strong> High</p>
+<p><strong>Priority:</strong> High</p>
+
+<h2>Summary</h2>
+<p>The Login button does not respond after entering valid credentials.</p>
+
+<h2>Steps to Reproduce</h2>
+<ol>
+    <li>Open the login page.</li>
+    <li>Enter valid credentials.</li>
+    <li>Click the Login button.</li>
+</ol>
+
+<h2>Expected Result</h2>
+<p>User should be logged in successfully.</p>
+
+<h2>Actual Result</h2>
+<p>Nothing happens when the Login button is clicked.</p>
+
+<a href="../index.html">← Back to Portfolio</a>
+
+</body>
+</html>
