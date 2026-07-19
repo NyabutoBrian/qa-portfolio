@@ -1,66 +1,107 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background: #0d1117;
-    color: white;
-    line-height: 1.6;
+body{
+    background:#0d1117;
+    color:#fff;
+    line-height:1.6;
 }
 
-header {
-    text-align: center;
-    padding: 80px 20px;
-    background: #161b22;
+.hero{
+    text-align:center;
+    padding:40px 20px;
 }
 
-header h1 {
-    font-size: 42px;
-    color: #58a6ff;
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+    margin-bottom:30px;
 }
 
-header h2 {
-    margin-top: 10px;
-    color: #c9d1d9;
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
 }
 
-header p {
-    max-width: 700px;
-    margin: 20px auto;
-    color: #8b949e;
+nav a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
 }
 
-a {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 12px 25px;
-    background: #238636;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
+nav a:hover{
+    color:#58a6ff;
 }
 
-a:hover {
-    background: #2ea043;
+.logo{
+    color:#58a6ff;
 }
 
-section {
-    max-width: 900px;
-    margin: 50px auto;
-    padding: 20px;
+.profile-photo{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #58a6ff;
+    box-shadow:0 0 20px rgba(88,166,255,.5);
+    margin-bottom:20px;
 }
 
-section h2 {
-    color: #58a6ff;
-    margin-bottom: 20px;
+.hero h1{
+    font-size:48px;
+    margin-bottom:10px;
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #161b22;
-    color: #8b949e;
+.hero h3{
+    color:#58a6ff;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    color:#b8c1cc;
+}
+
+.buttons{
+    margin-top:30px;
+}
+
+.btn{
+    background:#238636;
+    color:white;
+    padding:12px 25px;
+    border-radius:8px;
+    text-decoration:none;
+    margin:10px;
+    display:inline-block;
+}
+
+.btn:hover{
+    background:#2ea043;
+}
+
+section{
+    width:90%;
+    max-width:1000px;
+    margin:70px auto;
+}
+
+section h2{
+    color:#58a6ff;
+    margin-bottom:20px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#161b22;
+    color:#999;
 }
